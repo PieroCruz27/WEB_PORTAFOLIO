@@ -1,0 +1,16 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de log de npm
+npm-debug.log*
+
+# Ignorar archivos del sistema de Mac
+.DS_Store
+
+# Ignorar entorno de trabajo (opcional si usas algún IDE)
+.idea/
+.vscode/
+
+# Ignorar archivos de producción (opcional si ya tienes logs o builds)
+*.log
+
