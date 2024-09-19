@@ -165,7 +165,8 @@ async function handleFormSubmit(event) {
             form.reset(); // Limpia el formulario
             // Redirige después de mostrar el modal
             setTimeout(() => {
-                window.location.href = 'http://localhost:3000'; // Cambia a la URL deseada
+               // Cambia 'http://localhost:3000' por la URL de tu sitio desplegado
+               window.location.href = 'https://web-portafolio-piero.onrender.com'; 
             }, 2000); // Redirige después de 2 segundos
         } else {
             console.error('Error en el envío del formulario');
