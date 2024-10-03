@@ -30,13 +30,13 @@ body {
     height: 100%;
     z-index: -1; /* Asegúrate de que esté detrás del contenido */
 }
-
+/*estilo de cursor*/
 #spotlight {
     position: fixed; /* Asegura que el elemento esté fijo en la pantalla */
     width: 60px; /* Ajusta el tamaño según tus necesidades */
     height: 60px; /* Ajusta el tamaño según tus necesidades */
     border-radius: 50%; /* Hace que el elemento sea redondo */
-    background: rgba(255, 255, 255, 0.2); /* Color blanco con opacidad */
+    background: rgba(255, 255, 255, 0.1); /* Color blanco con opacidad */
     pointer-events: none; /* Asegura que el spotlight no interfiera con otros elementos */
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* Efecto de brillo */
     z-index: 9999; /* Asegura que esté sobre otros elementos */
